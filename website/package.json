@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.6.5",
+    "bootstrap": "^5.3.2",
+    "http-server": "^14.1.1",
+    "node": "^21.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.2",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "sass": "^1.69.7"
+  },
+  "scripts": {
+    "build:sass": "sass input.scss output.css"
+  }
+}
