@@ -1,15 +1,18 @@
 import Link from "next/link"
-import styles from '../styles/styles.css'
+import styles from '@/styles/styles.css'
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white py-2">
+        <div className="pt-4">
+
+        <footer className="footer text-white py-3 ">
             <div className="container d-flex justify-content-center">
                 <span>
-                    &copy; 2024 Todos os direitos reservados
+                     © 2024 Vinicios Pereira. Todos os direitos reservados.
                 </span>
             </div>
         </footer>
+        </div>
     )
 }
 
