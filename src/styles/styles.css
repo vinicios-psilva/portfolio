@@ -1,5 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+
 .logo {
   width: 50px;
   height: 50px;
@@ -10,15 +11,15 @@
 .body {
   background-image: url(/img1.jpg);
   background-size: cover;
-  width: 100%;
-  height: auto;
+  font-family: "DM Sans", 'sans-serif';
+  font-weight: 200;
+
 }
 
-.navbar{
+.navbar, .footer {
   background-color: #18171883;
   color: white;
 }
-
 
 .social a {
   color: #fff;
@@ -26,13 +27,19 @@
   margin: 0.25rem;
 }
 
-@keyframes expand {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
+.nav-link {
+  color: white;
+  background-color: #ffffff28;
+  border-radius: 5px;
+  margin: 5px;
+  justify-content: center;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #ffffff46;
+  font-weight: 400;
+  animation: expand 1s ease-in-out;
 }
 
 .img-fluid:hover {
@@ -42,13 +49,21 @@
 .btn, .cards {
   background-color: #ffffff61;
   color: white;
-  transition: trasform 0.5s ease-in-out;
 }
 
- .cards:hover {
+.cards:hover {
   background-color: #13121337;
   color: white;
   animation: expand 1s ease-out;
+}
+
+@keyframes expand {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
 }
 
 @media (max-width: 767px) {
@@ -62,10 +77,3 @@
     display: none;
   }
 }
-
-
-
-
-
-
-
