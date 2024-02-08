@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <div className="body text-white">
-      <Helmet title="Home | Vinicios Pereira" />
+      <Helmet title="Home | Vinicios Pereira 1" />
         <Navbar />
         <main>
         <section className="jumbotron text-white p-4">
