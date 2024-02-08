@@ -56,7 +56,7 @@ const BlogPage = () => {
             <div className="body text-white">
                 <Navbar />
 
-                <section className="jumbotron text-white p-4">
+                <section className="jumbotron text-white p-4 ">
                     <div className="container text-center">
                         <h1>Vinicios Pereira</h1>
                         <p>Engenheiro de Software</p>
@@ -82,7 +82,7 @@ const BlogPage = () => {
                                 ))}
                             </div>
                         </div>
-                        <div className="col-md-4 post ">
+                        <div className="col-md-4 post">
                             <div className="position-sticky mt-2 ">
                                 <div>
                                     <h4 className="text-center">Posts recentes</h4>
