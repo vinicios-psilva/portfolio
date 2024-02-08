@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer'; 
 import Link from "next/link"
-import styles from '../styles/styles.css'
+import styles from '@/styles/styles.css'
 import Helmet from 'react-helmet'
 
 
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <div className="body text-white">
-      <Helmet title="Home | Vinicios Pereira 1" />
+      <Helmet title="Home | Vinicios Pereira " />
         <Navbar />
         <main>
         <section className="jumbotron text-white p-4">
@@ -18,8 +18,8 @@ const Home = () => {
                 <h1>Vinicios Pereira</h1>
                 <p>Engenheiro de Software</p>
                 <ul className="social">
-                    <a href="" className="bi bi-linkedin"></a>
-                    <a href="" className="bi bi-github"></a>
+                    <a href="https://www.linkedin.com/in/viniciospsilva/" className="bi bi-linkedin"></a>
+                    <a href="https://github.com/vinicios-psilva" className="bi bi-github"></a>
                     <a href="" className="bi bi-whatsapp"></a>
                 </ul>
             </div>
@@ -27,9 +27,9 @@ const Home = () => {
 
         {/* Seções */}
 
-        <section className="container p-2 section">
-            <div className="row justify-content-center">
-                <h2 className="text-center p-4">PORTFOLIO</h2>
+        <section className="container p-2 section ">
+            <div className="row justify-content-center border-top">
+                <h2 className="text-center p-4">WEBSITES </h2>
                 <a href="#" className="col-sm-4 col-md-4 col-lg-4 w-25">
                     <figure>
                         <img className="img-fluid rounded-3 " src="/img6.png" alt=""/>
@@ -95,7 +95,7 @@ const Home = () => {
         {/* Inicio carousel*/}
 
         <section className="container p-2 carousel">
-            <div className="container">
+            <div className="container border-top">
                 <h2 className="text-center p-4">WEBSITES</h2>
                 <div id="carousel" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
@@ -132,7 +132,7 @@ const Home = () => {
             </div>
         </section>
 
-        <section className="container p-2 carousel">
+        <section className="container p-2 carousel pb-4">
             <div className="container">
                 <h2 className="text-center p-4">CLOUD COMPUTER</h2>
                 <div id="carousel" className="carousel slide" data-bs-ride="carousel">
