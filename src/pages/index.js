@@ -18,9 +18,10 @@ const Home = () => {
                 <h1>Vinicios Pereira</h1>
                 <p>Engenheiro de Software</p>
                 <ul className="social">
-                    <a href="https://www.linkedin.com/in/viniciospsilva/" className="bi bi-linkedin"></a>
-                    <a href="https://github.com/vinicios-psilva" className="bi bi-github"></a>
-                    <a href="" className="bi bi-whatsapp"></a>
+                    <a href="https://www.linkedin.com/in/viniciospsilva/" className="bi bi-linkedin" target='_blank'></a>
+                    <a href="https://github.com/vinicios-psilva" className="bi bi-github" target='_blank'></a>
+                    <a href="" className="bi bi-whatsapp" target='_blank'></a>
+                    <a href="@vinicios.p.silva@outlook.com" className="bi bi-envelope" target='_blank'></a>
                 </ul>
             </div>
         </section>
@@ -30,19 +31,19 @@ const Home = () => {
         <section className="container p-2 section ">
             <div className="row justify-content-center border-top">
                 <h2 className="text-center p-4">WEBSITES </h2>
-                <a href="#" className="col-sm-4 col-md-4 col-lg-4 w-25">
+                <a href="https://edmilsonfernandes.vercel.app/" className="col-sm-4 col-md-4 col-lg-4" target="_blank">
                     <figure>
-                        <img className="img-fluid rounded-3 " src="/img6.png" alt=""/>
+                        <img className="img-fluid rounded-3 siteone" src="/site1.png" alt="preview site"/>
                     </figure>
                 </a>
-                <a href="#" className="col-sm-4 col-md-4 col-lg-4 w-25">
+                <a href="#" className="col-sm-4 col-md-4 col-lg-4 ">
                     <figure>
-                        <img className="img-fluid rounded-3" src="/img7.png" alt=""/>
+                        <img className="img-fluid rounded-3 " src="/siteone.png" alt=""/>
                     </figure>
                 </a>
-                <a href="#" className="col-sm-4 col-md-4 col-lg-4 w-25">
+                <a href="#" className="col-sm-4 col-md-4 col-lg-4 ">
                     <figure>
-                        <img className="img-fluid rounded-3" src="/img8.png" alt=""/>
+                        <img className="img-fluid rounded-3" src="/site2.png" alt=""/>
                     </figure>
                 </a>
             </div>
@@ -74,7 +75,7 @@ const Home = () => {
                 <h2 className="text-center p-4">CLOUD COMPUTER</h2>
                 <a href="#" className="col-sm-4 col-md-4 col-lg-4 w-25">
                     <figure>
-                        <img className="img-fluid rounded-3 " src="/img6.png" alt=""/>
+                        <img className="img-fluid rounded-3" src="/img6.png" alt=""/>
                     </figure>
                 </a>
                 <a href="#" className="col-sm-4 col-md-4 col-lg-4 w-25">
@@ -100,13 +101,13 @@ const Home = () => {
                 <div id="carousel" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="100">
-                            <img src="/img6.png" className="d-block w-50 mx-auto rounded-3" alt="Imagem 1"/>
+                            <img src="/site1.png" className="d-block w-50 mx-auto rounded-3" alt="Imagem 1"/>
                         </div>
                         <div className="carousel-item" data-interval="100">
-                            <img src="/img7.png" className="d-block w-50 mx-auto rounded-3" alt="Imagem 2"/>
+                            <img src="/siteone.png" className="d-block w-50 mx-auto rounded-3" alt="Imagem 2"/>
                         </div>
                         <div className="carousel-item" data-interval="100">
-                            <img src="/img8.png" className="d-block w-50 mx-auto rounded-3" alt="Imagem 3"/>
+                            <img src="/site2.png" className="d-block w-50 mx-auto rounded-3" alt="Imagem 3"/>
                         </div>
                     </div>
                 </div>
